@@ -68,15 +68,10 @@ public class Main {
         return company;
     }
     
-    // BAD: Toute la logique de production est dans une méthode avec des if/else
-    // BAD: Couplage fort - connait tous les détails de chaque produit
-    // BAD: Violation du principe Open/Closed - ajouter une entreprise = modifier cette méthode
     private static void produceProduct(String company) {
         System.out.println("\n=== DÉBUT DE LA PRODUCTION ===");
         
-        // BAD: Switch/if basé sur des String - fragile et sujet aux erreurs
         if (company.equals("Compagnie Classique")) {
-            // BAD: Instanciation directe des classes concrètes
             Piano piano = new Piano();
             piano.createObject();
             piano.draw();
