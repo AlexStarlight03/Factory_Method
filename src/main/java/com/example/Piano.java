@@ -1,6 +1,6 @@
 package com.example;
 
-public class PianoProduction {
+public class Piano {
 
     public void draw() {
         System.out.println("""
@@ -23,10 +23,8 @@ public class PianoProduction {
     """);
     }
 
-    public PianoProduction createObject() {
+    public void createObject() {
         System.out.println("Fabrication de piano...");
-        draw();
-        return new PianoProduction();
     }
     
 }

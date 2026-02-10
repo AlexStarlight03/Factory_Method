@@ -1,6 +1,6 @@
 package com.example;
 
-public class SpeakersProduction {
+public class Speakers {
 
     public void draw() {
         System.out.println("""
@@ -20,9 +20,7 @@ public class SpeakersProduction {
     }
 
     
-    public SpeakersProduction createObject() {
+    public void createObject() {
         System.out.println("Fabrication de haut-parleurs...");
-        draw();
-        return new SpeakersProduction();
     }
 }

@@ -1,6 +1,6 @@
 package com.example;
 
-public class SnowmobileProduction {
+public class Snowmobile {
 
     public void draw() {
         System.out.println("""
@@ -32,10 +32,8 @@ public class SnowmobileProduction {
         """);
     }
 
-    public SnowmobileProduction createObject() {
+    public void createObject() {
         System.out.println("Fabrication de moto-neige...");
-        draw();
-        return new SnowmobileProduction();
     }
     
 }
