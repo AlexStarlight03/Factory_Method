@@ -25,7 +25,6 @@ public class PianoProduction {
 
     public PianoProduction createObject() {
         System.out.println("Fabrication de piano...");
-        draw();
         return new PianoProduction();
     }
     

@@ -22,7 +22,6 @@ public class SpeakersProduction {
     
     public SpeakersProduction createObject() {
         System.out.println("Fabrication de haut-parleurs...");
-        draw();
         return new SpeakersProduction();
     }
 }

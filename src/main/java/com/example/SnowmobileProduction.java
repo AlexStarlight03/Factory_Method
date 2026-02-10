@@ -34,7 +34,6 @@ public class SnowmobileProduction {
 
     public SnowmobileProduction createObject() {
         System.out.println("Fabrication de moto-neige...");
-        draw();
         return new SnowmobileProduction();
     }
     

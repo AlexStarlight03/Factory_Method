@@ -13,16 +13,19 @@ public class Production {
             case "1" -> {
                 PianoProduction piano = new PianoProduction();
                 piano.createObject();
+                piano.draw();
                 System.out.println("Piano terminé!\n");
             }
             case "2" -> {
                 SnowmobileProduction snowmobile = new SnowmobileProduction();
                 snowmobile.createObject();
+                snowmobile.draw();
                 System.out.println("Moto-neige terminée!\n");
             }
             case "3" -> {
                 SpeakersProduction speakers = new SpeakersProduction();
                 speakers.createObject();
+                speakers.draw();
                 System.out.println("Haut-parleurs terminés!\n");
             }
             default -> System.out.println("Vous avez choisi une option invalide");
