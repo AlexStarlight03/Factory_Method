@@ -1,5 +1,10 @@
-com\example\SnowmobileProduction.class
-com\example\SpeakersProduction.class
-com\example\PianoProduction.class
+com\example\Snowmobile.class
+com\example\ProductFactory.class
+com\example\SnowmobileFactory.class
 com\example\Main.class
 com\example\Production.class
+com\example\Piano.class
+com\example\PianoFactory.class
+com\example\SpeakersFactory.class
+com\example\Speakers.class
+com\example\Product.class

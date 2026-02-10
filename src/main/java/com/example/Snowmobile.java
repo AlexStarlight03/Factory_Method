@@ -1,7 +1,8 @@
 package com.example;
 
-public class SnowmobileProduction {
+public class Snowmobile implements Product {
 
+    @Override
     public void draw() {
         System.out.println("""
                 ___
@@ -32,9 +33,8 @@ public class SnowmobileProduction {
         """);
     }
 
-    public SnowmobileProduction createObject() {
+    @Override
+    public void createObject() {
         System.out.println("Fabrication de moto-neige...");
-        return new SnowmobileProduction();
     }
-    
 }

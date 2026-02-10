@@ -1,7 +1,8 @@
 package com.example;
 
-public class PianoProduction {
-
+public class Piano implements Product {
+    
+    @Override
     public void draw() {
         System.out.println("""
     ________________________
@@ -23,9 +24,9 @@ public class PianoProduction {
     """);
     }
 
-    public PianoProduction createObject() {
+    @Override
+    public void createObject() {
         System.out.println("Fabrication de piano...");
-        return new PianoProduction();
     }
     
 }
