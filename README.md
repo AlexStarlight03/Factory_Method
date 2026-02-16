@@ -24,8 +24,7 @@ public abstract class CompanyFactory {
     // Déclarez une méthode abstraite createProduct() qui retourne un Product
     
     // Créez une méthode concrète produceProduct() qui :
-    // 1. Appelle createProduct() pour obtenir le produit
-    // 2. Appelle createObject() sur le produit
+    // 1. Obtient et crée le prduit
     // 3. Appelle draw() sur le produit
 }
 ```
